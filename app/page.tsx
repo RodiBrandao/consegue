@@ -56,17 +56,14 @@ export default function Page() {
       >
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-         <motion.div
-  initial={{ opacity: 0, x: -20 }}
-  animate={{ opacity: 1, x: 0 }}
-  className="flex items-center gap-2"
->
-  <img 
-    src="logo.png" 
-    alt="COSEG Logo" 
-    className="h-10 w-auto"
-  />
-</motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="text-2xl font-bold"
+            >
+              <span className="text-[#1D5C3A]">COSE</span>
+              <span className="text-[#123524]">G</span>
+            </motion.div>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8">
