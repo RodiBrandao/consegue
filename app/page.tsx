@@ -62,7 +62,7 @@ export default function Page() {
               className="text-2xl font-bold"
             >
               <span className="text-[#1D5C3A]">COSE</span>
-              <span className="text-[#123524]">G</span>
+              <span className="text-[#1D5C3A]">G</span>
             </motion.div>
 
             {/* Desktop Menu */}
